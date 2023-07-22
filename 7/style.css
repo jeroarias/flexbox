@@ -1,0 +1,91 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+header{
+    height: 100px;
+    background-color: salmon;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    padding: 30px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+p{
+    font: 10px;
+    margin: 15px;
+}
+
+.border{
+    border-bottom: solid 1px black;
+}
+
+.sub{
+    color: white;
+}
+
+nav{
+    background-color: rgb(101, 190, 162);
+    display: flex;
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+ul{
+    display: flex;
+}
+
+li{ 
+margin-left: 40px;
+list-style: none;
+}
+
+.idiomas{
+    width: 20vw;
+    display: flex;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    padding: 10px;
+    height: 75%;
+    width: 30%;
+    margin-right: 15px;
+}
+
+.right{
+    padding: 5px;
+    height: 75%;
+    width: 70%;
+}
+
+footer{
+    margin-top: -10px;
+    background-color: rgb(189, 186, 186);
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

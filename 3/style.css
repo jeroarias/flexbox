@@ -1,0 +1,13 @@
+.parrafo{
+    background-color: rgb(189, 186, 186);
+    padding:20px;
+    width: 500px;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
